@@ -37,36 +37,34 @@ Check out [requirements.txt](requirements.txt) for more details.
 
 ### Steps
 
-### 1. Clone the repository
+1. **Clone the Repository**
+    ```bash
+    git clone https://github.com/user-name/UnravelAI.git
+    cd-voice-chatbot-streamlit
+    ```
 
-```bash
-git clone https://github.com/username/UnravelAI.git
-cd UnravelAI
-```
+2. **Create a Virtual Environment**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
+    ```
 
-### 2. Install the required dependencies:
+3. **Install Dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-- Ensure you have Python 3.8 or above. Install dependencies using `pip`.
+4. **Set Up Secrets**
+    Create a `.streamlit/secrets.toml` file and add your API keys:
+    ```toml
+    [gemini]
+    api_key = "YOUR_API_KEY_HERE"
+    ```
 
-  ```bash
-  pip install -r requirements.txt
-  ```
-
-### 3. Set up your environment:
-
-- You'll need an API key from Google’s generative AI services. Set it up in your environment.
-
-  ```bash
-  export API_KEY='your_api_key_here'
-  ```
-
-### 4. Run the application:
-
-- Start the Streamlit app.
-
-  ```bash
-  streamlit run main.py
-  ```
+5. **Run the App**
+    ```bash
+    streamlit run voicechatbot.py
+    ```
 
 ## 📈 License
 
