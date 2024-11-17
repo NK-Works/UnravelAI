@@ -62,11 +62,11 @@ Check out [requirements.txt](requirements.txt) for more details.
     [gemini]
     api_key = "YOUR_API_KEY_HERE"
     ```
-    - Get your `api_key` from [here](https://aistudio.google.com/app/apikey) for free.
+    Get your `api_key` from [here](https://aistudio.google.com/app/apikey) for free.
 
 5. **Run the App**
     ```bash
-    streamlit run voicechatbot.py
+    streamlit run main.py
     ```
 
 ## 📈 License
