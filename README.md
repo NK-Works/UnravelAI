@@ -17,7 +17,7 @@ UnravelAI is an innovative multi-functional AI platform that provides services s
 - **Python**: Backend logic and AI models.
 - **Streamlit**: For the frontend UI.
 - **Audio Recorder Streamlit**: Used for voice input functionality.
-- **Pillow (PIL)**: Image handling and captioning.
+- **Pillow (PIL)**: Image handling and analysis.
 - **Gemini API**: AI language model for generating responses.
 - **Other Python Libraries**:
   - `os` for file handling
