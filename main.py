@@ -117,6 +117,7 @@ def main():
                     st.image(resized_image)
     
     if selected == OPTIONS[2]:
+        gemini_response: str = ""
         page_header("✨ Playground", 2.0, 600)
         model = load_gemini("gemini-1.5-flash")
 
@@ -135,7 +136,7 @@ def main():
                 with st.chat_message(translate_role(message.role)):
                     st.markdown(message.parts[0].text)
 
-        user_prompt = st.chat_input("Type or record to unravel ...")
+        user_prompt = st.chat_input("Type to unravel ...")
         if user_prompt:
             st.chat_message("user").markdown(user_prompt)
 
@@ -149,9 +150,10 @@ def main():
             response_placeholder = st.empty()
 
             with st.spinner('Unravelling response ...'):
-                response = model.start_chat().send_message(language_prompt)
+                 gemini_response = st.session_state.chat_session.send_message(
+                    user_prompt).text
             with response_placeholder.container():
-                st.chat_message("assistant").markdown(response.text)
+                st.chat_message("assistant").markdown(gemini_response)
 
 if __name__ == "__main__":
     main()
