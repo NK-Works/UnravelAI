@@ -1,6 +1,6 @@
 # 💠 UnravelAI
 
-UnravelAI is an innovative multi-functional AI platform that provides services such as a chatbot for conversational AI, image analysisg, and more. With support for multiple languages, users can interact with the system either via text or voice, allowing for a seamless experience.
+UnravelAI is an innovative multi-functional AI platform that provides services such as a chatbot for conversational AI, image analysis, and more. With support for multiple languages, users can interact with the system either via text or voice, allowing for a seamless experience.
 
 ![UnravelAI](assets/page.png)
 
