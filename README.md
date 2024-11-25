@@ -41,7 +41,7 @@ Check out [requirements.txt](requirements.txt) for more details.
 
 1. **Clone the Repository**
     ```bash
-    git clone https://github.com/user-name/UnravelAI.git
+    git clone https://github.com/NK-Works/UnravelAI.git
     cd-voice-chatbot-streamlit
     ```
 
