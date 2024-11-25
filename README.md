@@ -42,7 +42,7 @@ Check out [requirements.txt](requirements.txt) for more details.
 1. **Clone the Repository**
     ```bash
     git clone https://github.com/NK-Works/UnravelAI.git
-    cd-voice-chatbot-streamlit
+    cd UnravelAI
     ```
 
 2. **Create a Virtual Environment**
